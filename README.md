@@ -1,5 +1,5 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
+![Screenshot 2024-10-14 141530](https://github.com/user-attachments/assets/1bc59c37-981b-47eb-a7a4-5ccc5fe24b7d)# EXPERIMENT--01-ALP-FOR-8086
+Name : SANJANA SRI N
 Roll no 
 Date of experiment :
 
@@ -78,24 +78,90 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+MOV AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
 
 
 
-## Output  
+## Output ![Screenshot 2024-10-14 140726](https://github.com/user-attachments/assets/fe7e0978-87f8-4972-bdc6-741aa70112a3)
+ 
  
 ## Subtraction   of 8 bit numbers  ALP 
+MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+
+
  
 ## Output  
+![Screenshot 2024-10-14 140926](https://github.com/user-attachments/assets/a02dfe04-f2d5-4e22-a9bb-c72f0a1cfdd4)
+
 ## Multiplication alp 
- ## Output  
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+
+## Output 
+![Screenshot 2024-10-14 141324](https://github.com/user-attachments/assets/c6f05378-04a6-46ab-b558-38abb8b62b14)
+
 
 
 ## Division alp 
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
 
 ## Output  
+![Screenshot 2024-10-14 141425](https://github.com/user-attachments/assets/2e8043d2-715e-4096-a224-b172c79f78af)
+
+
+## and alp
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+
+## Output
+![Screenshot 2024-10-14 141530](https://github.com/user-attachments/assets/28f7897f-0281-4faf-959b-868546f0df83)
+
+
+## or alp
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+
+## Output
+![Screenshot 2024-10-14 141625](https://github.com/user-attachments/assets/48fd105a-7446-4be0-9232-505ba8b249ee)
+
+## not alp
+MOV AL,65H
+NOT AL
+HLT
+
+## Output
+![Screenshot 2024-10-14 141733](https://github.com/user-attachments/assets/1275c63e-9a8d-4b1f-9d2a-1d93ee3b2ae3)
+
+## xor alp
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+
+## Output
+![Screenshot 2024-10-14 141825](https://github.com/user-attachments/assets/0c1362c7-bc6e-4414-b4c5-57866b4566c1)
+
 
 
 ## Result :
+Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified
+successfully.
+
  
 
 
